@@ -59,7 +59,7 @@ def read_root():
     }
 
 @app.get("/hotspots")
-def get_hotspots(region: str = None, start_date: str = "2023-01-01", end_date: str = "2024-01-01"):
+def get_hotspots(region: str = None, start_date: str = "2023-01-01", end_date: str = "2025-07-30"):
     """Get detected galamsey hotspots using comprehensive NASA data"""
     try:
         region_coords = {
