@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "mkdir -p public/wasm && cp node_modules/@loaders.gl/parquet/dist/libs/parquet_wasm_bg.wasm public/wasm/"
+    "postinstall": "mkdir -p public/wasm && cp node_modules/@loaders.gl/parquet/dist/parquet_wasm_bg.wasm public/wasm/"
   },
   "dependencies": {
     "@google/earthengine": "^1.6.10",
