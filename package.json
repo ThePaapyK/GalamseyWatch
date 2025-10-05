@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "mkdir -p public/wasm && cp node_modules/@loaders.gl/parquet/dist/libs/parquet_wasm_bg.wasm public/wasm/"
   },
   "dependencies": {
     "@google/earthengine": "^1.6.10",
@@ -35,4 +36,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
+  
 }
