@@ -7,3 +7,11 @@ node_modules/
 # Local environment files
 .env
 .env.local
+# Python virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+
+# Environment variables
+.env
