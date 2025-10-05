@@ -1,0 +1,295 @@
+{
+  "hotspots": [
+    {
+      "location": "Obuasi_Mine_1",
+      "lat": 6.216885695860173,
+      "lon": -1.667563072218505,
+      "severity": 0.661,
+      "region": "Ashanti",
+      "date": "2025-09-09",
+      "ndvi_change": -0.305,
+      "bsi_change": 0.458,
+      "confidence": "medium"
+    },
+    {
+      "location": "Obuasi_Mine_2",
+      "lat": 6.194731128320431,
+      "lon": -1.6430718658366317,
+      "severity": 0.533,
+      "region": "Ashanti",
+      "date": "2025-09-07",
+      "ndvi_change": -0.22,
+      "bsi_change": 0.483,
+      "confidence": "medium"
+    },
+    {
+      "location": "Obuasi_Mine_3",
+      "lat": 6.210100434302114,
+      "lon": -1.6802547412024316,
+      "severity": 0.726,
+      "region": "Ashanti",
+      "date": "2025-07-27",
+      "ndvi_change": -0.25,
+      "bsi_change": 0.114,
+      "confidence": "high"
+    },
+    {
+      "location": "Tarkwa_Mine_1",
+      "lat": 5.313788554336128,
+      "lon": -2.0116783498199955,
+      "severity": 0.657,
+      "region": "Western",
+      "date": "2025-08-27",
+      "ndvi_change": -0.121,
+      "bsi_change": 0.218,
+      "confidence": "medium"
+    },
+    {
+      "location": "Tarkwa_Mine_2",
+      "lat": 5.292895124639108,
+      "lon": -2.0160901119060797,
+      "severity": 0.625,
+      "region": "Western",
+      "date": "2025-09-08",
+      "ndvi_change": -0.156,
+      "bsi_change": 0.446,
+      "confidence": "medium"
+    },
+    {
+      "location": "Tarkwa_Mine_3",
+      "lat": 5.30190825170966,
+      "lon": -2.003319928647188,
+      "severity": 0.748,
+      "region": "Western",
+      "date": "2025-08-07",
+      "ndvi_change": -0.376,
+      "bsi_change": 0.492,
+      "confidence": "high"
+    },
+    {
+      "location": "Tarkwa_Mine_4",
+      "lat": 5.315910610618028,
+      "lon": -1.9825884550089141,
+      "severity": 0.709,
+      "region": "Western",
+      "date": "2025-07-30",
+      "ndvi_change": -0.374,
+      "bsi_change": 0.323,
+      "confidence": "high"
+    },
+    {
+      "location": "Tarkwa_Mine_5",
+      "lat": 5.283180743677223,
+      "lon": -1.998694016673584,
+      "severity": 0.785,
+      "region": "Western",
+      "date": "2025-07-13",
+      "ndvi_change": -0.164,
+      "bsi_change": 0.216,
+      "confidence": "high"
+    },
+    {
+      "location": "Dunkwa_Area_1",
+      "lat": 5.974927307694289,
+      "lon": -1.790495145950298,
+      "severity": 0.667,
+      "region": "Central",
+      "date": "2025-09-02",
+      "ndvi_change": -0.313,
+      "bsi_change": 0.128,
+      "confidence": "medium"
+    },
+    {
+      "location": "Dunkwa_Area_2",
+      "lat": 5.971799380493718,
+      "lon": -1.770850377097975,
+      "severity": 0.554,
+      "region": "Central",
+      "date": "2025-09-22",
+      "ndvi_change": -0.132,
+      "bsi_change": 0.381,
+      "confidence": "medium"
+    },
+    {
+      "location": "Dunkwa_Area_3",
+      "lat": 5.964408846587633,
+      "lon": -1.794813841621072,
+      "severity": 0.538,
+      "region": "Central",
+      "date": "2025-07-16",
+      "ndvi_change": -0.363,
+      "bsi_change": 0.489,
+      "confidence": "medium"
+    },
+    {
+      "location": "Prestea_Mine_1",
+      "lat": 5.414709025570108,
+      "lon": -2.136686086771031,
+      "severity": 0.447,
+      "region": "Western",
+      "date": "2025-08-09",
+      "ndvi_change": -0.173,
+      "bsi_change": 0.101,
+      "confidence": "medium"
+    },
+    {
+      "location": "Prestea_Mine_2",
+      "lat": 5.425572820823769,
+      "lon": -2.1316403644838227,
+      "severity": 0.824,
+      "region": "Western",
+      "date": "2025-09-30",
+      "ndvi_change": -0.148,
+      "bsi_change": 0.464,
+      "confidence": "high"
+    },
+    {
+      "location": "Prestea_Mine_3",
+      "lat": 5.446550564839075,
+      "lon": -2.1331798730926574,
+      "severity": 0.462,
+      "region": "Western",
+      "date": "2025-07-31",
+      "ndvi_change": -0.328,
+      "bsi_change": 0.169,
+      "confidence": "medium"
+    },
+    {
+      "location": "Konongo_Area_1",
+      "lat": 6.630759755398367,
+      "lon": -1.2093724360599662,
+      "severity": 0.555,
+      "region": "Ashanti",
+      "date": "2025-07-12",
+      "ndvi_change": -0.306,
+      "bsi_change": 0.377,
+      "confidence": "medium"
+    },
+    {
+      "location": "Konongo_Area_2",
+      "lat": 6.618405233519585,
+      "lon": -1.208713197621902,
+      "severity": 0.578,
+      "region": "Ashanti",
+      "date": "2025-09-16",
+      "ndvi_change": -0.146,
+      "bsi_change": 0.444,
+      "confidence": "medium"
+    },
+    {
+      "location": "Konongo_Area_3",
+      "lat": 6.6174431853126,
+      "lon": -1.211305316527265,
+      "severity": 0.832,
+      "region": "Ashanti",
+      "date": "2025-07-24",
+      "ndvi_change": -0.307,
+      "bsi_change": 0.217,
+      "confidence": "high"
+    },
+    {
+      "location": "Konongo_Area_4",
+      "lat": 6.616070333660099,
+      "lon": -1.2060836814130713,
+      "severity": 0.599,
+      "region": "Ashanti",
+      "date": "2025-09-30",
+      "ndvi_change": -0.315,
+      "bsi_change": 0.366,
+      "confidence": "medium"
+    },
+    {
+      "location": "Konongo_Area_5",
+      "lat": 6.603390252187563,
+      "lon": -1.226117648462671,
+      "severity": 0.446,
+      "region": "Ashanti",
+      "date": "2025-08-31",
+      "ndvi_change": -0.134,
+      "bsi_change": 0.285,
+      "confidence": "medium"
+    },
+    {
+      "location": "Konongo_Area_6",
+      "lat": 6.604460582976257,
+      "lon": -1.2125766666958924,
+      "severity": 0.345,
+      "region": "Ashanti",
+      "date": "2025-09-13",
+      "ndvi_change": -0.121,
+      "bsi_change": 0.195,
+      "confidence": "low"
+    },
+    {
+      "location": "Bibiani_Mine_1",
+      "lat": 6.4651055814090554,
+      "lon": -2.301601985712731,
+      "severity": 0.616,
+      "region": "Western",
+      "date": "2025-10-03",
+      "ndvi_change": -0.314,
+      "bsi_change": 0.374,
+      "confidence": "medium"
+    },
+    {
+      "location": "Bibiani_Mine_2",
+      "lat": 6.462985184692446,
+      "lon": -2.312819016851173,
+      "severity": 0.638,
+      "region": "Western",
+      "date": "2025-08-27",
+      "ndvi_change": -0.276,
+      "bsi_change": 0.226,
+      "confidence": "medium"
+    },
+    {
+      "location": "Bibiani_Mine_3",
+      "lat": 6.479806970830757,
+      "lon": -2.31943676000418,
+      "severity": 0.756,
+      "region": "Western",
+      "date": "2025-07-19",
+      "ndvi_change": -0.238,
+      "bsi_change": 0.385,
+      "confidence": "high"
+    },
+    {
+      "location": "Bibiani_Mine_4",
+      "lat": 6.456061588320208,
+      "lon": -2.3143749794661703,
+      "severity": 0.902,
+      "region": "Western",
+      "date": "2025-07-23",
+      "ndvi_change": -0.174,
+      "bsi_change": 0.235,
+      "confidence": "high"
+    },
+    {
+      "location": "Bibiani_Mine_5",
+      "lat": 6.46044192910964,
+      "lon": -2.3149832030496484,
+      "severity": 0.828,
+      "region": "Western",
+      "date": "2025-07-30",
+      "ndvi_change": -0.209,
+      "bsi_change": 0.148,
+      "confidence": "high"
+    }
+  ],
+  "summary": {
+    "total_detections": 25,
+    "high_severity_sites": 9,
+    "medium_severity_sites": 15,
+    "regions_analyzed": [
+      "Western",
+      "Ashanti",
+      "Central"
+    ],
+    "analysis_date": "2025-10-05T12:55:21.598466",
+    "data_sources": [
+      "Landsat 8/9 (simulated)",
+      "MODIS (simulated)",
+      "Hansen Forest Change (simulated)"
+    ]
+  }
+}
