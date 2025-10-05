@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   transpilePackages: ['kepler.gl'],
   webpack: (config, { isServer }) => {
-    // Fix alias for Kepler.gl
+    // Kepler.gl aliases
     config.resolve.alias = {
       ...config.resolve.alias,
       'kepler.gl/components': 'kepler.gl/dist/components',
@@ -13,19 +13,28 @@ const nextConfig = {
       'kepler.gl/reducers': 'kepler.gl/dist/reducers',
     };
 
-    // Allow WebAssembly files to be properly handled
-    config.experiments = { ...config.experiments, asyncWebAssembly: true };
+    // Enable async WebAssembly
+    config.experiments = {
+      ...config.experiments,
+      asyncWebAssembly: true,
+    };
 
-    // Copy parquet_wasm_bg.wasm to the .next directory during build
-    config.module.rules.push({
-      test: /parquet_wasm_bg\.wasm$/,
-      type: 'asset/resource',
-      generator: {
-        filename: 'static/chunks/[name][ext]',
-      },
-    });
+    // Copy the parquet WASM file into Next build output
+    config.plugins.push(
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: path.resolve(
+              __dirname,
+              'node_modules/@loaders.gl/parquet/dist/parquet_wasm_bg.wasm'
+            ),
+            to: path.resolve(__dirname, '.next/server/chunks/'),
+          },
+        ],
+      })
+    );
 
-    // Fix: ensure wasm files are loaded correctly at runtime
+    // Prevent fs module issues on client
     if (!isServer) {
       config.resolve.fallback = { fs: false };
     }
